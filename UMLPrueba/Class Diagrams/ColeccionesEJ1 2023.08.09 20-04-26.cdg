@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="ColeccionesEJ1">
+  <ClassDiagramComponents>
+    <Class name="Perros" package="Entidad" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="razas" type="ArrayList&lt;String&gt;" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="add" returnType="void" visibility="public">
+          <Argument type="String" name="raza"/>
+        </Method>
+        <Method name="razas" returnType="void" visibility="public"/>
+        <Method name="toStringg" returnType="String" visibility="public"/>
+        <Method name="eliminarMscota" returnType="void" visibility="public">
+          <Argument type="String" name="opcion"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="app" package="Main" visibility="public" xPosition="340.0" yPosition="20.0">
+      <Fields>
+        <Field name="peero1" type="Perros" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
